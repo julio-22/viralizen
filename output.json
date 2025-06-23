@@ -1,0 +1,64 @@
+🔗 Pega el link del video de YouTube Shorts: https://www.youtube.com/shorts/ynIBhoMjOuQ
+{
+    "video_id": "ynIBhoMjOuQ",
+    "sentiment": [
+        {
+            "label": "1 star",
+            "score": 0.49206429719924927
+        }
+    ],
+    "emotions": {
+        "angry": 99.8776316569824,
+        "disgust": 3.423993515188353e-07,
+        "fear": 0.09848387567602847,
+        "happy": 0.02284965876012869,
+        "sad": 0.0010318668206531802,
+        "surprise": 3.057900337577218e-07,
+        "neutral": 2.9150667618676517e-06
+    },
+    "colors": [
+        {
+            "rgb": [
+                39,
+                32,
+                29
+            ],
+            "proportion": 0.4589788299465719
+        },
+        {
+            "rgb": [
+                25,
+                26,
+                35
+            ],
+            "proportion": 0.19234370847274074
+        },
+        {
+            "rgb": [
+                37,
+                32,
+                34
+            ],
+            "proportion": 0.14379391798746638
+        },
+        {
+            "rgb": [
+                87,
+                75,
+                70
+            ],
+            "proportion": 0.11825597309468278
+        },
+        {
+            "rgb": [
+                76,
+                70,
+                73
+            ],
+            "proportion": 0.08662757049853824
+        }
+    ],
+    "recommendations": [
+        "Prueba contenido más positivo o visualmente colorido."
+    ]
+}
