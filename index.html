@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ViraliZen | Analiza tu contenido viral</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 ViraliZen</h1>
+    <p>Optimiza tus contenidos de TikTok, Shorts e IG Reels con IA</p>
+    
+    <form id="analyze-form">
+      <input type="text" id="video-link" placeholder="Pega tu enlace de video" required />
+      <button type="submit">Analizar</button>
+    </form>
+
+    <div id="results" style="display:none;">
+      <h2>Resultados del análisis</h2>
+      <div id="sentiment"></div>
+      <div id="emotions"></div>
+      <div id="colors"></div>
+      <div id="recommendations"></div>
+      <button onclick="generatePDF()">Exportar PDF</button>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
